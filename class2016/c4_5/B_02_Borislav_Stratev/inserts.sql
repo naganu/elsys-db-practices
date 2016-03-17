@@ -12,3 +12,14 @@ insert into Eventss (name, location, date_) values("Bobi", "Staro Gelezare", "20
 insert into Eventss (name, location, date_) values("Niki", "Dragichevo", "2014-08-20");
 insert into Eventss (name, location, date_) values("Gogo", "Yablanica", "2013-05-21");
 insert into Eventss (name, location, date_) values("Dan", "Sevlievo", "2012-02-25");
+
+insert into Groups_Users (User_id, Group_id) values
+(1,1),
+(2,2),
+(3,3),
+(4,4);
+insert into Groups_Events (Event_id, Group_id) values
+(1,1),
+(2,2),
+(3,3),
+(4,4);
